@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,11 +13,16 @@ namespace iPocket
         public Form3()
         {
             InitializeComponent();
+            button1.Click += button1_Click;
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form4 nextScreen = new Form4();
+            nextScreen.Show();
+            this.Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e) { }
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,27 +14,21 @@ namespace iPocket
         public Form9()
         {
             InitializeComponent();
+            backarrow.Click += backarrow_Click;
         }
 
-        private void label32_Click(object sender, EventArgs e)
+        private void backarrow_Click(object sender, EventArgs e)
         {
-
+            Form8 prevScreen = new Form8();
+            prevScreen.Show();
+            this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+        private void label32_Click(object sender, EventArgs e) { }
+        private void label1_Click(object sender, EventArgs e) { }
 
-        }
-
-        private void Form9_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        private void Form9_Load(object sender, EventArgs e) { }
+        private void panel3_Paint(object sender, PaintEventArgs e) { }
 
         private void panel3_Click(object sender, EventArgs e)
         {
