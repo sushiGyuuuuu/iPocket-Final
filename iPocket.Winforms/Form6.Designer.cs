@@ -82,7 +82,6 @@
             label2.Name = "label2";
             label2.Size = new Size(336, 64);
             label2.TabIndex = 2;
-            label2.Text = "Enter the 4-digit code sent to \r\n09XX XXX XXXX\r\n";
             label2.TextAlign = ContentAlignment.TopCenter;
             // 
             // backarrow

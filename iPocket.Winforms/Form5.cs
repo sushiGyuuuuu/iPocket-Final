@@ -58,7 +58,7 @@ namespace iPocket
                 MessageBox.Show("Please enter a valid mobile number.", "iPocket", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            Form6 nextScreen = new Form6();
+            Form6 nextScreen = new Form6(textBox1.Text);
             nextScreen.Show();
             this.Hide();
         }

@@ -8,15 +8,16 @@ namespace iPocket
     {
         private TextBox[] otpBoxes;
 
-        public Form6()
+        public Form6(string phoneNumber = "")
         {
             InitializeComponent();
 
             otpBoxes = new TextBox[] { txtOtp1, txtOtp2, txtOtp3, txtOtp4 };
 
             backarrow.Click += backarrow_Click;
-            button1.Click += button1_Click;
             linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+
+            label2.Text = $"Enter the 4-digit code sent to\n{MaskPhoneNumber(phoneNumber)}";
         }
 
         private void Form6_Load(object sender, EventArgs e) { }
@@ -31,6 +32,14 @@ namespace iPocket
                     break;
                 }
             }
+        }
+
+        private string MaskPhoneNumber(string phoneNumber)
+        {
+            if (phoneNumber.Length <= 4) return phoneNumber;
+            string visible = phoneNumber.Substring(0, 4);
+            string masked = new string('*', phoneNumber.Length - 4);
+            return visible + masked;
         }
 
         private void Backspace()
