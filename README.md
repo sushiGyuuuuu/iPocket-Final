@@ -1,3 +1,2 @@
-<div align="center">
-
-<h1> iPocket </h1>
+<p align="center">
+  <img src="logo.png" width="180"/>
