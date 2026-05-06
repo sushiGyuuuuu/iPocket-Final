@@ -1,2 +1,2 @@
 <p align="center">
-  <img src="logo.png" width="180"/>
+  <img src="assets/logo.png" width="180"/>
