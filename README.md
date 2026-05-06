@@ -1,10 +1,11 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/630d3ec4075d915f60b1ca6d91acc1e7536ea314/Images/circle.png" width="150"/>
-  <h1>iPocket</h1>
-  <em>Your savings, growing!</em>
-</div>
+  <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/630d3ec4075d915f60b1ca6d91acc1e7536ea314/Images/circle.png" width="200"/>
 
-<div align="justify">
+  <br>
+
+  <h1>iPocket</h1>
+  <p><em>Your savings, growing!</em></p>
+</div>
   
 ## **Description**
 
@@ -16,5 +17,8 @@ The system addresses the common problem of low motivation to save by offering in
 <div align="center"> <em>Because your money deserves a raise!</em>
 
 <div align="justify">
+
+## **UML Diagram**
+
 
 
