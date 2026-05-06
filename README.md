@@ -1,13 +1,14 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/630d3ec4075d915f60b1ca6d91acc1e7536ea314/Images/circle.png" width="200"/>
+  <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/630d3ec4075d915f60b1ca6d91acc1e7536ea314/Images/circle.png" width="500"/>
 
   <br>
 
   <h1>iPocket</h1>
   <p><em>Your savings, growing!</em></p>
 </div>
-  
-## **Description**
+
+  <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/c1acb70a4c9e4227f35faec36d75a4f733c658a9/Images/Description.png" width="280"/>
+</div>
 
 **iPocket** is a banking application designed to help users grow their savings through a progressive interest system. Unlike traditional savings accounts, the application increases the **interest rate by 1% each year**, rewarding users who keep their money in the system for a longer period of time.
 
