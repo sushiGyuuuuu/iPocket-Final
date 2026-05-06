@@ -30,5 +30,7 @@ The system addresses the common problem of low motivation to save by offering in
   <img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/f32f028814c6ce621bf5090fa3790fa6f3c0105f/Images/UML.png" width="500"/>
 </div>
 
+<br>
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/64ab7aa915ac09d2d85b6e58bfed60f685ecb4ae/Images/Features%20and%20Functionalities.png?raw=true" width="280"/>
 
 
