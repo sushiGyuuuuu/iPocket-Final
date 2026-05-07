@@ -108,5 +108,7 @@ The system addresses the common problem of low motivation to save by offering in
   </tr>
 
 </table>
+<div align="left">
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/f1ad17b22eaf4b9e54e15f0de307b23bb10963de/Images/How%20it%20Works.png" width="400"/>
 
 
