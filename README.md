@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/sushiGyuuuuu/iPocket-Final/1fb1d947ab5b5aebb3c0342457b69e15699f3581/Images/LOGO.png" width="900"/>
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/c850325da277b398ab0c90cb89b98f0f4a4d21d9/Images/Logo.png" width="1000"/>
 
 </div>
 
