@@ -321,3 +321,8 @@ KYC Records
 </table>
 
 </div>
+<br>
+<hr style="height:3px;border:none;background-color:#6b21a8;">
+<div align="left">
+
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/dae95e5f1fcbe9dcd3f7295fdce79aaf562634c1/Images/Application%20Startup.png" alt="Application Startup" width="400">
