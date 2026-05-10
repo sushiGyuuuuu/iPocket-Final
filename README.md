@@ -324,5 +324,77 @@ KYC Records
 <br>
 <hr style="height:3px;border:none;background-color:#6b21a8;">
 <div align="left">
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/dae95e5f1fcbe9dcd3f7295fdce79aaf562634c1/Images/Application%20Startup.png" alt="Application Startup" width="500">
 
-<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/dae95e5f1fcbe9dcd3f7295fdce79aaf562634c1/Images/Application%20Startup.png" alt="Application Startup" width="400">
+<section style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: auto; color: #333;">
+    <h2 style="border-bottom: 2px solid #3498db; padding-bottom: 10px; color: #2c3e50;">📂 Project Structure</h2>
+    <p>The <strong>iPocket</strong> solution is built using a decoupled Client-Server architecture. This ensures a clear separation between the desktop user interface and the backend business logic.</p>
+
+``` 
+iPocket/ (Solution)
+├── 📂 iPocket.Winforms/                # Frontend Desktop Application
+│   ├── 📂 Properties/                  # App manifest and assembly information
+│   ├── 📂 Resources/                   # UI assets (Icons, images, branding)
+│   ├── 📄 Form1.cs ... Form3.cs        # Initial landing and startup screens
+│   ├── 📄 Form4.cs                     # Login Screen
+│   ├── 📄 Form5.cs                     # Mobile Number Entry
+│   ├── 📄 Form6.cs                     # OTP Verification (Designer & Resx)
+│   ├── 📄 Form7.cs ... Form8.cs        # Account Registration
+│   ├── 📄 Form9.cs ... Form10.cs       # KYC / Identity Verification
+│   ├── 📄 Form910.cs                   # Post-KYC / Status Screen
+│   ├── 📄 Form911.cs                   # Main Dashboard (Home)
+│   ├── 📄 Form912.cs                   # Savings Jars Overview
+│   ├── 📄 Form913.cs                   # Deposit / Cash-in
+│   ├── 📄 Form914.cs                   # Send Money / Transfer
+│   ├── 📄 Form915.cs ... Form916.cs    # Savings Details & Growth Projection
+│   ├── 📄 Form917.cs                   # User Profile & Account Info
+│   ├── 📄 Form918.cs ... Form920.cs    # History and Settings
+│   ├── 📄 FormNavigator.cs             # Navigation Logic (Form switching)
+│   ├── 📄 Gradient Panel.cs            # Custom UI Component for styling
+│   ├── 📄 UserSession.cs               # Local state (JWT Token storage)
+│   └── 📄 Program.cs                   # WinForms Application Entry Point
+│
+└── 📂 iPocket.API/                     # Backend Server & Database Logic
+    ├── 📂 Controllers/                 # REST API Endpoints
+    ├── 📂 Data/                        # AppDbContext (EF Core Connection)
+    ├── 📂 DTOs/                        # Request/Response Data Models
+    ├── 📂 Middleware/                  # JWT Auth & Error Handling logic
+    ├── 📂 Migrations/                  # EF Core Database Schema History
+    ├── 📂 Models/                      # Database Entities (User, Wallet)
+    ├── 📂 Services/                    # Core Business & Financial Logic
+    ├── ⚙️ appsettings.json             # API Configuration
+    ├── 🗄️ iPocket.db                   # SQLite Database File
+    └── 📄 Program.cs                   # API Startup & Swagger Config
+``` 
+Configuration</span></pre>
+    </div>
+
+ <h3 style="color: #2c3e50;">🛠️ Component Responsibilities</h3>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px;">
+        <thead>
+            <tr style="background-color: #8A2BE2; color: white;">
+                <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Layer</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Technology</th>
+                <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Responsibility</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #dee2e6; font-weight: bold;">Frontend</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">C# WinForms</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">Handles UI/UX, user input, and communicates with the API via HTTP.</td>
+            </tr>
+            <tr style="background-color: #f9f9f9;">
+                <td style="padding: 10px; border: 1px solid #dee2e6; font-weight: bold;">Backend</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">ASP.NET Core Web API</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">Processes business logic, secures endpoints with JWT, and manages the database.</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #dee2e6; font-weight: bold;">Database</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">SQLite / EF Core</td>
+                <td style="padding: 10px; border: 1px solid #dee2e6;">Persists user data, wallet balances, and transaction logs in a local file.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
