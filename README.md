@@ -127,13 +127,13 @@ iPocket is a client-server financial application that simulates a real-world e-w
 
 <pre>
 WinForms UI (Frontend)
-        ↓
+↓
 ASP.NET Core Web API (Backend)
-        ↓
+↓
 Service Layer (Business Logic)
-        ↓
+↓
 Entity Framework Core
-        ↓
+↓
 SQLite Database
 
 </pre>
