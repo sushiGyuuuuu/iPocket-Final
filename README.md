@@ -111,4 +111,213 @@ The system addresses the common problem of low motivation to save by offering in
 <div align="left">
 <img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/f1ad17b22eaf4b9e54e15f0de307b23bb10963de/Images/How%20it%20Works.png" width="400"/>
 
+<p>
+iPocket is a client-server financial application that simulates a real-world e-wallet system with integrated savings and growth features. It enables users to manage their wallet, send and receive money, create savings jars, track financial growth through progressive interest, and securely manage accounts using authentication and KYC verification.
+</p>
 
+</div>
+
+<hr>
+
+<div align="center">
+
+<h3>System Architecture</h3>
+
+<pre>
+WinForms UI (Frontend)
+        ↓
+ASP.NET Core Web API (Backend)
+        ↓
+Service Layer (Business Logic)
+        ↓
+Entity Framework Core
+        ↓
+SQLite Database
+
+</pre>
+</div>
+</div>
+
+<!-- TECH STACK -->
+<div align="center">
+<div class="section">
+<h3>Tech Stack</h3>
+
+<table>
+<tr>
+    <th>Frontend</th>
+    <td>C# WinForms</td>
+</tr>
+<tr> <div align="center">
+    <th>Backend</th>
+    <td>ASP.NET Core Web API (.NET 8/10), JWT Authentication</td>
+</tr>
+<tr>
+    <th>Database</th>
+    <td>SQLite with Entity Framework Core</td>
+</tr>
+</table>
+</div>
+  
+<div align="center">
+
+<h3>Application Modules & Savings Interest System</h3>
+
+<table style="width:100%; border-collapse:collapse;">
+
+<tr>
+
+<!-- LEFT TABLE: APPLICATION MODULES -->
+<td style="width:65%; vertical-align:top; padding-right:10px;">
+
+<table style="width:100%; border-collapse:collapse;">
+
+<tr><th>Application Modules</th><th>Details</th></tr>
+
+<tr>
+    <td><b>Authentication System</b></td>
+    <td>User registration and login | OTP verification | JWT session handling</td>
+</tr>
+
+<tr>
+    <td><b>Wallet System</b></td>
+    <td>Deposit money | Send and receive funds | Balance tracking | Transaction history</td>
+</tr>
+
+<tr>
+    <td><b>Savings System (Jar of Joy)</b></td>
+    <td>Create savings jars | Add contributions | Track savings progress | Progressive interest growth</td>
+</tr>
+
+<tr>
+    <td><b>KYC Verification</b></td>
+    <td>ID submission | Status tracking (Pending, Approved, Rejected)</td>
+</tr>
+
+<tr>
+    <td><b>Dashboard</b></td>
+    <td>Wallet overview | Recent transactions | Quick actions</td>
+</tr>
+
+</table>
+
+</td>
+
+<!-- RIGHT TABLE: INTEREST SYSTEM -->
+<td style="width:35%; vertical-align:top; padding-left:10px;">
+
+<table style="width:100%; border-collapse:collapse;">
+
+<tr><th colspan="2">Savings Interest System</th></tr>
+
+<tr><th>Year</th><th>Rate</th></tr>
+<tr><td>1</td><td>3%</td></tr>
+<tr><td>2</td><td>4%</td></tr>
+<tr><td>3</td><td>5%</td></tr>
+<tr><td>4</td><td>6%</td></tr>
+<tr><td>5</td><td>7%</td></tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div align="center">
+
+<table>
+
+<tr>
+
+<!-- SYSTEM WORKFLOW -->
+<td valign="top" width="33%">
+
+<h2 align="center">System Workflow</h2>
+
+<table>
+<tr>
+<th>Step</th>
+<th>Description</th>
+</tr>
+
+<tr><td>1</td><td>User opens WinForms application</td></tr>
+<tr><td>2</td><td>User logs in or registers</td></tr>
+<tr><td>3</td><td>API validates credentials</td></tr>
+<tr><td>4</td><td>JWT token is generated</td></tr>
+<tr><td>5</td><td>User accesses dashboard</td></tr>
+<tr><td>6</td><td>User performs wallet actions</td></tr>
+<tr><td>7</td><td>API processes and stores data</td></tr>
+<tr><td>8</td><td>UI updates in real time</td></tr>
+
+</table>
+
+</td>
+
+<!-- DATABASE -->
+<td valign="top" width="33%">
+
+<h2 align="center">Database</h2>
+
+<table>
+<tr><th>Info</th><th>Details</th></tr>
+
+<tr><td><b>File</b></td><td>iPocket.db</td></tr>
+<tr><td><b>Technology</b></td><td>Entity Framework Core</td></tr>
+
+<tr>
+<td><b>Stored Data</b></td>
+<td>
+Users<br>
+Wallets<br>
+Transactions<br>
+Savings Jars<br>
+KYC Records
+</td>
+</tr>
+
+</table>
+
+</td>
+
+<!-- API ENDPOINTS (FIXED - SINGLE TABLE ONLY) -->
+<td valign="top" width="33%">
+
+<h2 align="center">API Endpoints</h2>
+
+<table>
+<tr>
+<th>Base URL</th>
+<td>http://localhost:5000</td>
+</tr>
+
+<tr>
+<th>Swagger</th>
+<td>http://localhost:5000/swagger</td>
+</tr>
+
+<tr>
+<th>Endpoints</th>
+<td>
+/api/auth/login<br>
+/api/auth/register<br>
+/api/wallet<br>
+/api/wallet/deposit<br>
+/api/wallet/send<br>
+/api/savings<br>
+/api/kyc
+</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
