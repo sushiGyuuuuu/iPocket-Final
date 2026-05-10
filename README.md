@@ -109,6 +109,8 @@ The system addresses the common problem of low motivation to save by offering in
 
 </table>
 <div align="left">
+  <hr style="height:3px;border:none;background-color:#6b21a8;">
+
 <img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/f1ad17b22eaf4b9e54e15f0de307b23bb10963de/Images/How%20it%20Works.png" width="400"/>
 
 <p>
@@ -398,3 +400,4 @@ Configuration</span></pre>
     </table>
 </section>
 
+<hr style="height:3px;border:none;background-color:#6b21a8;">
