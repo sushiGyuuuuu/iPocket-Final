@@ -366,15 +366,15 @@ iPocket/ (Solution)
     ├── 📂 Services/                    # Core Business & Financial Logic
     ├── ⚙️ appsettings.json             # API Configuration
     ├── 🗄️ iPocket.db                   # SQLite Database File
-    └── 📄 Program.cs                   # API Startup & Swagger Config
+    └── 📄 Program.cs                   # API Startup & Swagger Configuration
 ``` 
-Configuration</span></pre>
+</span></pre>
     </div>
 
  <h3 style="color: #2c3e50;">🛠️ Component Responsibilities</h3>
     <table style="width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px;">
         <thead>
-            <tr style="background-color: #8A2BE2; color: white;">
+            <tr style="background-color: #570073; color: white;">
                 <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Layer</th>
                 <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Technology</th>
                 <th style="padding: 12px; text-align: left; border: 1px solid #dee2e6;">Responsibility</th>
@@ -401,3 +401,43 @@ Configuration</span></pre>
 </section>
 
 <hr style="height:3px;border:none;background-color:#6b21a8;">
+<div align="center">
+
+<img src="https://github.com/sushiGyuuuuu/iPocket-Final/blob/77e3b9c2b28afe9f3980d11e0767371c54f0373d/Images/Team%20Members.png" width="700"/>
+
+</div>
+
+
+ <table>
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Quick Responsibilities</th>
+    <th>GitHub</th>
+  </tr>
+
+  <tr>
+    <td>Orquinaza, Marylein L.</td>
+    <td>UI/UX Designer</td>
+    <td>Conceptualized the project idea and designs UI/UX with wireframes and user flow.</td>
+    <td><a href="https://github.com/yamahoera" target="_blank">yamahoera</a></td>
+  </tr>
+
+  <tr>
+    <td>Perez, Gabriel Theodore D.</td>
+    <td>Backend Developer & UI/UX Designer</td>
+    <td>Develops backend logic and assists in UI/UX design and system structure.</td>
+    <td><a href="https://github.com/sushiGyuuuuu" target="_blank">sushiGyuuuuu</a></td>
+  </tr>
+
+  <tr>
+    <td>Velasco, Iah Shanelle E.</td>
+    <td>WinForms Developer</td>
+    <td>Implements WinForms interface and integrates application features.</td>
+    <td><a href="https://github.com/macherieshanelle" target="_blank">macherieshanelle</a></td>
+  </tr>
+
+</table>
+
+</body>
+</html>
